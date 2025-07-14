@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationFeed"
+        android:icon="@drawable/ic_feed_selector"
+        android:title="Feed" />
+
+    <item
+        android:id="@+id/navigationShots"
+        android:icon="@drawable/ic_shots_selector"
+        android:title="Shots" />
+
+    <item
+        android:id="@+id/navigationDrop"
+        android:icon="@drawable/ic_drop_selector"
+        android:title="Drop" />
+
+    <item
+        android:id="@+id/navigationLOL"
+        android:icon="@drawable/ic_lol_selector"
+        android:title="LOL" />
+
+    <item
+        android:id="@+id/navigationMyZone"
+        android:icon="@drawable/ic_my_zone_selector"
+        android:title="My Zone" />
+
+</menu>

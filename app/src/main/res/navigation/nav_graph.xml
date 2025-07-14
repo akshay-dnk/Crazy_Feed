@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigationFeed">
+
+    <fragment
+        android:id="@+id/navigationFeed"
+        android:name="com.ags.crazyfeed.ui.feed_screen.FeedFragment"
+        android:label="Feed"
+        tools:layout="@layout/fragment_feed_screen" />
+
+    <fragment
+        android:id="@+id/navigationShots"
+        android:name="com.ags.crazyfeed.ui.shots_screen.ShotsFragment"
+        android:label="ShotsFragment"
+        tools:layout="@layout/fragment_shots_screen" />
+
+    <fragment
+        android:id="@+id/navigationDrop"
+        android:name="com.ags.crazyfeed.ui.drop_screen.DropFragment"
+        android:label="DropFragment"
+        tools:layout="@layout/fragment_drop_screen" />
+
+    <fragment
+        android:id="@+id/navigationLOL"
+        android:name="com.ags.crazyfeed.ui.lol_screen.LOLFragment"
+        android:label="LOLFragment"
+        tools:layout="@layout/fragment_lol_screen" />
+
+    <fragment
+        android:id="@+id/navigationMyZone"
+        android:name="com.ags.crazyfeed.ui.my_zone_screen.MyZoneFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_my_zone_screen" />
+
+</navigation>
